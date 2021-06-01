@@ -1,0 +1,51 @@
+/* **************************** */
+/* IMPORTAR PARCIALES PARA COMPILAR */
+/* **************************** */
+
+// Normalize 8.0.1
+@import './base/normalize';
+// Normalizadores de los Navegadores
+@import './base/reset';
+
+// Variables
+@import './abstracts/variables';
+
+// Mixins
+@import './abstracts/mixins';
+
+// Tipografias
+@import './base/typography';
+
+// Botones
+@import './components/buttons';
+// Carrousel
+@import './components/carousel';
+// Cover-Banner
+@import './components/cover';
+// Dropdown-desplegables
+@import './components/dropdown';
+
+// ****************************
+// ****************************
+// Grids
+@import './layout/grid';
+// Formularios
+@import './layout/forms';
+// Sistemas de Navegación
+@import './layout/navigation';
+
+// Header
+@import './layout/header';
+// Footer
+@import './layout/footer';
+// Sidebar
+@import './layout/sidebar';
+
+
+// *******************************
+// CONTENIDO diferente de los HTML
+// *******************************
+// Home-index.html
+@import './pages/home';
+// Contactar-contactar-html
+@import './pages/contact';
